@@ -1,0 +1,40 @@
+header{
+    width:50%;
+}
+.wer{
+    background-color: azure;
+    border:solid;
+    margin:25px;
+    padding:35px;
+    border-radius:20px;
+}
+button{
+    height:40px;
+    width:400px;
+}
+input{
+    height: 40px;
+    width:400px;
+}
+.div2{
+    display:inline-table;
+    border:solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin:50px;
+    height: auto;
+    width:auto;
+    align-content: center;
+
+}
+.ult1{
+    display:inline
+}
+button:hover{
+    background-color: brown;
+    transition-duration: 0.4s;
+}
+button:active{
+    background-color: green;
+    transition-duration: 0.2s;
+}

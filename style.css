@@ -1,0 +1,42 @@
+#indexMain{
+    background-color: azure;
+    margin:75px;
+    padding:45px;
+    border-radius:50px;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+button{
+    height:40px;
+    width:300px;
+    cursor: pointer;
+    margin-left: 35%;
+} 
+
+button:hover{
+    background-color: rgb(0, 156, 34);
+    transition-duration: 0.3s;
+}
+    .font{
+       font-size: 18px;
+       word-spacing:8px;
+    }
+
+    #warning{
+        color:red;
+    }
+    .codei{
+        color:green;
+        font-size: 15px;
+        border: solid;
+        padding: 20px;
+    }
+    .explain{
+        text-decoration: underline;
+    }
+    .site{
+background-color: bisque;
+    }

@@ -15,10 +15,10 @@
 <h2 style="text-align: center; text-decoration: underline; color: red;">Solution:</h2>
     <p><h6 class="codei">1 import java.util.Scanner;<br>2 public class Main{<br>3 public static void main (String[]args){
         <br>4 Scanner sc = new Scanner(System.in);<br>5 int [] userInput = new int[10];<br>6 System.out.println("Enter 10 numbers:");
-        <br>7 for(x=0; x<10; x++){<br>8 userInput[x] = sc.nextInt();<br>9 }<br>10 System.out.println("User Inputted values:");
-        <br>11 for (x=0; x<10; x++){<br>12 System.out.println(userInput[x]);<br>13 }<br>14 System.out.println("Even numbers discovered:");
-        <br>15 for(x=0; x<10; x++){<br>16 if(userInput[x]%2==0){<br>17 System.out.println(userInput[x]);<br>18 }<br>19 }<br>
-    20 System.out.println("Odd numbers discovered:");<br>21 for(x=0; x<10; x++){<br>22 if(userInput[x]%2!=0){
+        <br>7 for(int x=0; x<10; x++){<br>8 userInput[x] = sc.nextInt();<br>9 }<br>10 System.out.println("User Inputted values:");
+        <br>11 for (int x=0; x<10; x++){<br>12 System.out.println(userInput[x]);<br>13 }<br>14 System.out.println("Even numbers discovered:");
+        <br>15 for(int x=0; x<10; x++){<br>16 if(userInput[x]%2==0){<br>17 System.out.println(userInput[x]);<br>18 }<br>19 }<br>
+    20 System.out.println("Odd numbers discovered:");<br>21 for(int x=0; x<10; x++){<br>22 if(userInput[x]%2!=0){
         <br>23 System.out.println(userInput[x]);<br>24 }<br>25 }<br>26 }<br>27 }</h6></p>
         <p><h2><span class="explain">CODE EXPLANATIION</span></h2><br><p>Line 1: Enables you use the input prompt<br>Line 2: Declares your class, 
             note: make sure your classname matches your file name letter for letter, case for case and word for word to avoid error.

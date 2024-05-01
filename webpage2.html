@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>JAVA-ASSIST_Ass30/04/24</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width" initial-scale="1.0">
+    </head>
+    <body class="site">
+        <h1><strong class="ult1" style="color:brown;">
+            JAVA-ASSIST
+        </strong></h1><br><br>
+        <p><h3>Assignment-1<br>Date:Tuesday 30th april 2024<br><br>Question(T3004/24)A. <i>Write a java programme to
+             prompt a user to enter daily egg production in a poultry farm for one month.
+             <br><br> B. How many eggs were produced in day 5 of the 4th week? </i></h3></p>
+<h2 style="text-align: center; text-decoration: underline; color: red;">Solution:</h2>
+<ol><p><h6 class="codei"><li>import java.util.Scanner;</li>
+    <li>public class Eggs{</li>
+        <li>public static void main (String[ ]args){</li>
+ <li>Scanner sc = new Scanner(System.in);</li>
+ <li>int [ ][ ] userInput = new int[4][7];</li>
+ <li>//This array uses 4weeks = 1month</li>
+ <li>for(int x=0; x<4; x++){</li>
+    <li>for (int y=0; y<7; y++){</li>
+        <li>int z=x+1;
+            <li>int t=y+1;</li>
+ <li>System.out.println("Enter number of eggs production for day "+t+"week"+z+":");</li>
+ <li>userInput[x][y] = sc.nextInt( );</li>
+ <li>}</li><li>}</li>
+ <li>System.out.println("");</li>
+ <li>System.out.println("Egg production for day 5 of week 4 was:");</li>
+ <li>System.out.println(EggInput[3][4]);</li>
+<li>//where the rows are weeks and columns are days</li>
+<li>}</li>
+<li>}</li>
+</h6></p></ol>
+        <p><h2><span class="explain">CODE EXPLANATION</span></h2><br>Line 1: Enables you to use the input window.<br>
+            Line 2: Declares your class, 
+            note: make sure your classname matches your file name letter for letter, case for case and word for word to avoid error.
+       it is a good practice to always start your class name with a capital letter.<br>Line 3: Is called the main method.
+       <br>Line 4: Enables you use the input window.<br>Line 5: Creation of a 2dimensional array space to store eggs
+        production data for 7days per week for 4weeks which is equivalent to 1month.<br>
+       Line 6: This is a comment, comments are always not executed by the program.
+        It's use is to give information or serve as a reminder  to the programmer.<br>
+       Line 7: This is a for loop created to automatically access the rows of the array.<br>
+       Line 8: This is a for loop created to automatically access the columns of the array.<br>
+       Line 9/10: This code is useful in the print statement at line 11 to promt the user to enter a value, it is used to define 
+       what value a user is to input, line 9/10 works with the help of the for loops at line 8/7<br>
+       Line 11: Prints a statement to notify users of what they are about to input, the values of the day and week changes as 
+       the user enters their input thanks to line 7,8,9 and 10. This line 11 helps notify users of what data is needed.<br>
+       Line 12: creates an input window for users to input their data.<br>
+    Line 13: closes the first for loop.<br>
+Line 14: closes the second for loop.<br>
+Line 15: prints an empty line or skips a line.<br>
+Line 16: A print statement to notify a user of what data is about to be outputted<br>
+Line 17: Outputs the data specified in line 16.<br>
+Line 18: Is a comment to guide the user.<br>
+Line 19/20: closes the main method and the class respectively!.<br>
+<p>The end!</p>
+<p>You can send in your questions to  ultralimit@gmail.com</p>
+<footer style="margin-top:100px; text-align:center"><h5>©Ultralimit_Dev 2024</h5></footer>
+    </p>
+</body>

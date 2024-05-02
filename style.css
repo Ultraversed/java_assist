@@ -1,10 +1,10 @@
 #indexMain{
-background-image:url("https://i.ibb.co/xzBhyr5/peakpx-6.jpg");   
- background-color: azure;
+background-image:url("(https://i.ibb.co/xzBhyr5/peakpx-6.jpg)");   
+ background-color: rgb(0,3,12);
     margin:65px;
-    padding:40px;
+    padding:20px;
     border-radius:50px;
-    color:white;
+    color:;
     background-repeat: no-repeat;
     background-size: cover;
 }

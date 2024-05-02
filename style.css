@@ -8,9 +8,11 @@ background-image:url("(https://i.ibb.co/xzBhyr5/peakpx-6.jpg)");
 }
 
 .mainbut{
+background-color:green;
     height:40px;
-    width:100px;
+    width:150px;
     cursor: pointer;
+margin-left:20%;
 } 
 
 .mainbut:hover{

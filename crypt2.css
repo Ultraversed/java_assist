@@ -1,0 +1,202 @@
+html{
+    
+    background: white;
+}
+.wrapper{
+    font-size:50px;
+    padding: 10px;
+  margin:80px 20px 0 20px;
+    text-align: center;
+    
+    
+}
+.der{
+    padding: 8px 5px 0 5px;
+    width:100%;
+    position: fixed;
+    border:solid ;
+    background-color: white;
+    height:50px;
+    align-content: center;
+    
+}
+.one{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin:5px;
+}
+.two{
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin:5px;
+}
+.three{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin:5px;
+}
+main{
+    
+margin-tfop:15%;
+
+}
+.na{
+    display: inline;
+    position:fixed;
+    top: 0;
+    right:0;
+    margin:5px;
+    height:40px;
+    border-radius:15px;
+    width: 90px;
+    background-color: #1d6db8;
+    font-family: Sans-Serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+}
+header{
+    background-color: teal;
+    display: absolute;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.div1{
+    background: url('pexels-alesiakozik-6780789(1).jpg');
+color:white;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+margin: 0 -2.5% 0 -2.5%;
+font-family: Georgia;
+border:solid;
+/*filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+backdrop-filter: blur(5px);*/
+
+
+    
+
+}
+.lenmo{
+    font-size: 17px;
+    margin-top:0 25px 0 25px;
+    color:white;
+    text-align: center;
+    
+}
+
+.navb{
+    margin:165px 5px 5px 5px;
+    height:40px;
+    border-radius:15px;
+    width: 90px;
+    background-color:#871010;
+    font-family: Sans-Serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+}
+.inwrap{
+    text-align: center;
+}
+.fa-solid{
+    /*padding: 20px 33% 0 33%;*/
+   font-size: 55px;
+    color: #1d6db8;
+}
+.fonts1{
+    margin-top: 50px;
+    text-align: center;
+}
+.fonts3{
+    margin-top: 50px;
+    text-align: center;
+}
+.italic1{
+    
+    color:white ;
+    font-family: fantasy;
+    font-size: 17px;
+    margin:-20px 20px 0 20px;
+    
+}
+.img1{
+    width:175px;
+    height:175px;
+    margin: -30px 0 0 -30px;
+}
+.ychose-us{
+    margin-top:-35px;
+}
+.img2{
+    height:49px;
+    width:50px;
+    display:block;
+    position: fixed;
+    top:2px;
+    right:50%;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    position: fixed;
+    align-content: center;
+    
+}
+.intro1{
+    text-align:center;
+}
+span{
+    font-weight: bold;
+}
+
+.der:active{
+.two{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin:5px;
+}
+}
+
+.foot1{
+    text-align: center;
+}
+.navc{
+    margin:3px 5px 45px 5px;
+    height:40px;
+    border-radius:15px;
+    width: 200px;
+    background-color:#871010;
+    font-family: Sans-Serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+}
+.footimg{
+       height:100px;
+    width:150px;
+    
+}
+.footdiv{
+    text-align: center;
+}
+.footdiv1{
+    text-align: center;
+    display:inline-block;
+}
+.fontsfoot{
+    text-align: center;
+    margin:50px;
+}
+.fab{
+    margin:10px;
+   /* color:#1d6db8;*/
+   color:red;
+    height:10px;
+    width:15px;
+}

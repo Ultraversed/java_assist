@@ -1,6 +1,6 @@
-html{
-    
-    background: white;
+body{
+    width:100%;
+    background:white;
 }
 .wrapper{
     font-size:50px;
@@ -38,11 +38,6 @@ html{
     background-color: black;
     margin:5px;
 }
-main{
-    
-margin-tfop:15%;
-
-}
 .na{
     display: inline;
     position:fixed;
@@ -57,7 +52,40 @@ margin-tfop:15%;
     font-size: 15px;
     font-weight: bold;
     color:white;
+    transition: 0.2s;
 }
+
+.na:hover{
+    width: 100px;
+    transition: 0.2s;
+}
+
+
+.nav{
+    width: 40px;
+    transition: 0.2s;
+}
+
+.nav:active{
+    background-color:#1d6db8;
+    transition: 0.1s;
+}
+
+.nav:hover{
+ .one{
+    background-color:blue;
+}
+.two{
+    background-color:blue;
+    width:30px;
+}
+.three{
+    background-color:blue;
+}
+border-radius:10px;
+transition: 0.2s;
+}
+
 header{
     background-color: teal;
     display: absolute;
@@ -66,7 +94,7 @@ header{
     left:0;
 }
 .div1{
-    background: url('https://imgur.com/gleGMce');
+    background: url('pexels-alesiakozik-6780789(1).jpg');
 color:white;
 background-size: cover;
 background-repeat: no-repeat;
@@ -75,20 +103,13 @@ text-align: center;
 margin: 0 -2.5% 0 -2.5%;
 font-family: Georgia;
 border:solid;
-/*filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-backdrop-filter: blur(5px);*/
-
-
-    
-
 }
+
 .lenmo{
     font-size: 17px;
     margin-top:0 25px 0 25px;
     color:white;
     text-align: center;
-    
 }
 
 .navb{
@@ -101,67 +122,69 @@ backdrop-filter: blur(5px);*/
     font-size: 15px;
     font-weight: bold;
     color:white;
+    transition: 0.5s;
 }
+
+.navb:active{
+    border-color:blue;
+    transition: 0.5s;
+}
+
+.navb:hover{
+    height: 60px;
+    width:110px;
+    transition: 0.5s;
+}
+
+
 .inwrap{
     text-align: center;
 }
+
 .fa-solid{
     /*padding: 20px 33% 0 33%;*/
    font-size: 55px;
     color: #1d6db8;
 }
+
 .fonts1{
     margin-top: 50px;
     text-align: center;
 }
+
 .fonts3{
     margin-top: 50px;
     text-align: center;
 }
+
 .italic1{
     
     color:white ;
     font-family: fantasy;
     font-size: 17px;
     margin:-20px 20px 0 20px;
-    
 }
+
 .img1{
-    width:175px;
-    height:175px;
-    margin: -30px 0 0 -30px;
+    width:100px;
+    height:85px;
 }
-.ychose-us{
-    margin-top:-35px;
+
 }
 .img2{
-    height:49px;
-    width:50px;
+    height:5px;
+    width:5px;
     display:block;
     position: fixed;
     top:2px;
     right:50%;
-    text-align: center;
     padding: 0 5px 0 5px;
-    position: fixed;
-    align-content: center;
     
 }
 .intro1{
     text-align:center;
 }
-span{
-    font-weight: bold;
-}
 
-.der:active{
-.two{
-    width: 30px;
-    height: 2px;
-    background-color: black;
-    margin:5px;
-}
-}
 
 .foot1{
     text-align: center;
@@ -178,8 +201,9 @@ span{
     color:white;
 }
 .footimg{
-       height:100px;
-    width:150px;
+       height:80px;
+    width:120px;
+    margin-top:10px;
     
 }
 .footdiv{
@@ -197,6 +221,31 @@ span{
     margin:10px;
    /* color:#1d6db8;*/
    color:red;
-    height:10px;
-    width:15px;
+    height:25px;
+    width:38px;
+}
+.card{
+    margin:20px;
+}
+footer{
+    background-color:whitesmoke;
+}
+
+.btn:active{
+    padding:10px;
+    text-align: center;
+    height:50px;
+    width:160px;
+    
+}
+
+.foot-ul{
+    text-decoration:none;
+    list-style-type: none;
+    
+}
+
+.foot-align{
+    text-align: center;
+    margin-top:20px;
 }

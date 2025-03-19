@@ -94,7 +94,7 @@ header{
     left:0;
 }
 .div1{
-    background: url('https://i.imgur.com/gleGMce.jpg');
+    background: url('pexels-alesiakozik-6780789(1).jpg');
 color:white;
 background-size: cover;
 background-repeat: no-repeat;
@@ -170,7 +170,7 @@ border:solid;
     height:85px;
 }
 
-}
+
 .img2{
     height:5px;
     width:5px;
@@ -216,6 +216,7 @@ border:solid;
 .fontsfoot{
     text-align: center;
     margin:50px;
+    transition-duration: 0.4s;
 }
 .fab{
     margin:10px;
@@ -223,7 +224,15 @@ border:solid;
    color:red;
     height:25px;
     width:38px;
+    transition-duration: 0.4s;
+    
 }
+
+.fab:hover{
+    font-size: 30px;
+    transition-duration: 0.4s;
+}
+
 .card{
     margin:20px;
 }
@@ -242,10 +251,20 @@ footer{
 .foot-ul{
     text-decoration:none;
     list-style-type: none;
+    transition-duration: 0.5s;
     
 }
 
 .foot-align{
     text-align: center;
     margin-top:20px;
+}
+
+.foot-ul:hoverh{
+    width:20px
+}
+ 
+#foot-ul1:hover{
+    font-size: larger;
+    transition-duration: 0.3s;
 }

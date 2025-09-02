@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="resetpasscyrpt1.css">
+  <title>Reset password</title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    .div1 {
+      margin: 5%;
+      text-align: center;
+      border: 0.1px solid;
+      border-radius: 30px;
+      padding: 50px;
+      background-color: teal;
+    }
+
+    .buttons {
+      height: 40px;
+      background-color: rgb(200 255 200);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #email1 {
+      width: 80%;
+      height: 30px;
+      border-radius: 5px;
+    }
+
+    #canButton {
+      margin-right: 7px;
+    }
+
+    .paragraph {
+      text-align: center;
+    }
+
+    /* Popup Styles */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      justify-content: center;
+      align-items: center;
+    }
+    .popup-content {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 300px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      animation: fadeIn 0.3s ease;
+    }
+    .popup-content h3 {
+      margin-bottom: 15px;
+    }
+    .popup-content button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      background: teal;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="div1">
+    <div>
+      <h1>Recover my password</h1>
+      <hr style="border: none; border-top: 1px dashed black;">
+      <div class="paragraph">
+        <p>Enter the email address for your Para account and we will send a reset link to your inbox. <br> Follow the link
+          to reset your password.</p>
+      </div>
+      <form id="resetForm">
+        <label style="text-align:left" for="email" id="emailLabel">Email address</label>
+        <br>
+        <input id="email1" type="email" name="email" placeholder="ultralimit1@gmail.com" required>
+        <br>
+        <p></p>
+<button  type="button" class="buttons" id="canButton">Cancel</button>
+        <button type="submit" class="buttons" id="subButton">Recover my password</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Popup -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <h3>✅ Success</h3>
+      <p>A password reset has been sent to your Gmail.</p>
+      <button id="confirmBtn">OK</button>
+    </div>
+  </div>
+
+  <footer>@Ultralimit inc.</footer>
+
+  <script>
+    const form = document.getElementById("resetForm");
+    const emailField = document.getElementById("email1");
+    const popup = document.getElementById("popup");
+    const confirmBtn = document.getElementById("confirmBtn");
+    const cancelBtn = document.getElementById("canButton");
+
+    // Handle form submit
+    form.addEventListener("submit", (e) => {
+      e.preventDefault(); // prevent default submit
+      if (emailField.value.trim() !== "") {
+        popup.style.display = "flex"; // show popup
+      } else {
+        alert("⚠️ Please enter your Gmail address.");
+      }
+    });
+
+    // Confirm button redirects
+    confirmBtn.addEventListener("click", () => {
+      window.location.href = "cryptlogin.html";
+    });
+
+    // Cancel button just clears field
+    cancelBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      emailField.value = "";
+    });
+
+    // Optional: click outside popup to close it
+    window.addEventListener("click", (e) => {
+      if (e.target === popup) {
+        popup.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>

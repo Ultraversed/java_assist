@@ -1,196 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="crypt2.css">
-   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
- 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="resetpasscyrpt1.css">
+  <title>Reset password</title>
+  <style>
+    body {
+      text-align: center;
+    }
 
-<!-- Add font awesome icons -->
+    .div1 {
+      margin: 5%;
+      text-align: center;
+      border: 0.1px solid;
+      border-radius: 30px;
+      padding: 50px;
+      background-color: teal;
+    }
 
-<title>Crypto</title>
+    .buttons {
+      height: 40px;
+      background-color: rgb(200 255 200);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #email1 {
+      width: 80%;
+      height: 30px;
+      border-radius: 5px;
+    }
+
+    #canButton {
+      margin-right: 7px;
+    }
+
+    .paragraph {
+      text-align: center;
+    }
+
+    /* Popup Styles */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      justify-content: center;
+      align-items: center;
+    }
+    .popup-content {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 300px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      animation: fadeIn 0.3s ease;
+    }
+    .popup-content h3 {
+      margin-bottom: 15px;
+    }
+    .popup-content button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      background: teal;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+  </style>
 </head>
+
 <body>
-   <header>
-       
-      
-       
-       
-       
-   <!-- <nav class="der">
-        <div>-->
-            
-          
-          
-          
-        <!--    <div onclick="window.location.href='crypt3.html'"  class="nav">
-        <a href="#">
-            <div class="one"></div>
-             <div class="two"></div>
-              <div class="three"></div>
-              </a>
-              </div> 
-        <img style="height:45px;
-    width:50px;
-    display:block;
-    position: fixed;
-    top:2px;
-    right:50%;
-    padding: 0 5px 0 5px;" class="img2" src="Screenshot_20250315-092604~3.jpg" alt="Para-logo"><br>
-        <button onclick="window.location.href='cryptlogin.html'" class="na"; >LOGIN</button>
-  </div>
-  </nav>-->
-    </header>
-    
-    <main>
-    <div class="div1">
-        <div class="inwrap">
-        <h4 class="wrapper">Invest to the moon!...</h4>
-        <span class="italic1">You can always rely on us, Explore the crypto world with our website!<br>
-Join millions of people using our exchange worldwide.</span><br>
-        <a href="Crypt3.html" class="lenmo">Learn more!</a><br>
-       </div>
-       <button class="navb" onclick="window.location.href='cryptsignup.html'" >Sign up</button>
+  <section class="div1">
+    <div>
+      <h1>Recover my password</h1>
+      <hr style="border: none; border-top: 1px dashed black;">
+      <div class="paragraph">
+        <p>Enter the email address for your Para account and we will send a reset link to your inbox. <br> Follow the link
+          to reset your password.</p>
+      </div>
+      <form id="resetForm">
+        <label style="text-align:left" for="email" id="emailLabel">Email address</label>
+        <br>
+        <input id="email1" type="email" name="email" placeholder="ultralimit1@gmail.com" required>
+        <br>
+        <p></p>
+<button  type="button" class="buttons" id="canButton">Cancel</button>
+        <button type="submit" class="buttons" id="subButton">Recover my password</button>
+      </form>
     </div>
+  </section>
 
-    <div class="fonts1">
-         <div class="card text-center">
-   <div class="card-body">
-        <i class="fa-solid fa-thumbs-up"></i>
-   
-         
- 
-    <h5 class="card-title">Support</h5>
-    <p class="card-text">Your crypto is in good hands, all the information you need to start is in handy.</p>
-    <a href="crypt3.html" class="btn btn-primary">See more</a>
-  </div>
-</div>
-    
-</div>
-    
-    
-    <div class="fonts1">
-      <div class="card text-center">
-  <div class="card-body">
-      <i class="fa-solid fa-shield"></i>
-    <h5 class="card-title">Security</h5>
-    <p class="card-text">Your protection is our priority, as we protect you, you also play your part by using our industry-leading security tools.</p>
-    <a href="crypt3.html" class="btn btn-primary">See more</a>
- 
-     </div>
- </div>
-  </div>
-    
-   <div class="fonts3">
-       <div class="card text-center">
-        <div class="card-body">
-              <img class="img1" src="Screenshot_20250315-092604~3.jpg" alt="Para-logo">
-    <h5 class="card-title">Why choose Para?</h5>
-    <p class="card-text">para aims to be the safest and most compliant crypto investment platform in the world. We take a regulation-first approach, because we believe that’s the best way to keep you and your investment safe.We also have some of the most intensive security processes in crypto, according to CCData.
-We rigorously vet all cryptocurrencies and new features before making them available, and provide straightforward information to help you understand the risks so you can build and execute an investment strategy that’s right for you.</p>
-    <a style="background-color:#871010;" class="btn btn-primary" onclick="window.location.href='cryptsignup.html'" >Create account</a>
-  </div>
-  </div>
-  
-
-</div>
-
-
- <nav class="navbar bg-body-tertiary fixed-top">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-     <img style="height:45px;
-    width:50px;
-    display:block;
-    position: fixed;
-    top:2px;
-    right:50%;
-    padding: 0 5px 0 5px;" class="img2" src="Screenshot_20250315-092604~3.jpg" alt="Para-logo"><br>
-     
-     <a class="navbar-brand" href="#">  <button onclick="window.location.href='cryptlogin.html'" class="na"; >LOGIN</button>
-  </a>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h2 class="offcanvas-title" id="offcanvasNavbarLabel"><p class="text-sky-800 dark:text-purple-400">ParaHub</p></h2>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+  <!-- Popup -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <h3>✅ Success</h3>
+      <p>A password reset has been sent to your Gmail.</p>
+      <button id="confirmBtn">OK</button>
     </div>
   </div>
-</nav>
 
-<hr></hr>
-</main>
+  <footer>@Ultralimit inc.</footer>
 
-<!--footer starts here!-->
-<footer>
-   <div class="footdiv">
-       <img class="footimg" src="Screenshot_20250315-092604~3.jpg" alt="Para-logo"><br>
- </div>
- <div class="foot-align">
- <div class="footdiv1">
-      <ul class="foot-ul">
-     <li><a id="foot-ul1" class="foot-ul" href="crypt3.html">Company</a></li>
-      <li><a id="foot-ul1" class="foot-ul" href="crypt3.html">Careers</a></li>
-       <li><a id="foot-ul1" class="foot-ul" href="crypt3.html">Help center</a></li>
-       </ul>
-  </div>
-    <div class="footdiv1">
-        <ul class="foot-ul">
-     <li> <a id="foot-ul1" class="foot-ul" href="crypt3.html">Features</a></li>
-     <li>  <a id="foot-ul1" class="foot-ul" href="crypt3.html">Exchange</a></li>
-     <li>  <a id="foot-ul1" class="foot-ul" href="crypt3.html">Fees</a></li>
-     <li>   <a id="foot-ul1" class="foot-ul" href="crypt3.html">Business</a></li>
-     <li>  <a id="foot-ul1" class="foot-ul" href="crypt3.html">Privacy notice</a></li>
-     </ul>
-  </div>
-  </div>
-   <div class="fontsfoot">
-   <a href="https://www.facebook.com/profile.php?id=100073441144354">    <i class="fab fa-facebook-f"></i></a>
-   <a href="https://x.com/ultra_limit?s=09"> <i class="fab fa-x"></i></a>
-   <a href="https://www.instagram.com/ultralimit_inc?igsh=eWJ4Zm9pb284bDJk"><i class="fab fa-instagram"></i></a>
-     <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=kingsley-john-holt-aa8489346"><i class="fab fa-linkedin"></i></a>
-     </div>
-     
-  <hr></hr>
-  
-   <h6 class="foot1">©ultralimit inc 2025</h6>
-   
-   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-   <script type="text/javascriptcript" src="crypt.js"></script>
-    
+  <script>
+    const form = document.getElementById("resetForm");
+    const emailField = document.getElementById("email1");
+    const popup = document.getElementById("popup");
+    const confirmBtn = document.getElementById("confirmBtn");
+    const cancelBtn = document.getElementById("canButton");
+
+    // Handle form submit
+    form.addEventListener("submit", (e) => {
+      e.preventDefault(); // prevent default submit
+      if (emailField.value.trim() !== "") {
+        popup.style.display = "flex"; // show popup
+      } else {
+        alert("⚠️ Please enter your Gmail address.");
+      }
+    });
+
+    // Confirm button redirects
+    confirmBtn.addEventListener("click", () => {
+      window.location.href = "cryptlogin.html";
+    });
+
+    // Cancel button just clears field
+    cancelBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      emailField.value = "";
+    });
+
+    // Optional: click outside popup to close it
+    window.addEventListener("click", (e) => {
+      if (e.target === popup) {
+        popup.style.display = "none";
+      }
+    });
+  </script>
 </body>
 </html>
